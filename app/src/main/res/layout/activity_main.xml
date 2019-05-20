@@ -7,6 +7,15 @@
     tools:context=".MainActivity"
     android:orientation="vertical">
 
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgProfile"
+        android:layout_gravity="center"
+        android:scaleType = "fitCenter"
+        android:src = "@drawable/noimage"
+        />
+
 <EditText
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
