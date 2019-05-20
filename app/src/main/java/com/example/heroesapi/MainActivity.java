@@ -39,12 +39,16 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+
         imgProfile.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Save();
             }
         });
+
+
+
         imgProfile.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -54,9 +58,14 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
+
+
     }
 
+
+
     private void Save() {
+
         String name = etname.getText().toString();
         String desc = etDescription.getText().toString();
 
